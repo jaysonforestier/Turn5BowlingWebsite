@@ -7,22 +7,70 @@ body {
     color:#414042;
     margin: 0px;
 }
+.black{
+	background-color:black;
+}
+.orange{
+	background-color:orange;
+}
+.white{
+	background-color:white;
+}
+[class*=white]{
+	height: 700px;
+}
+[class*=orange]{
+    height: 700px;}
+[class*=black]{
+	height: 300px;
+}
+[class*=nested]{
+	height: 300px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color:#414042;
+}
+h2{
+        text-align:center;
+        padding:10px;
+}
+h1{
+    text-align:center;
+}
+#res{
+    margin-left: 350px;
+    padding:10px;
+}
+#slider1{
+        position:relative;
+        left:55px;
+    }
+#footer{
+    height:100px;
+}
+#submitbutton{
+    margin-left:500px
+}
 
+
+
+/* CSS from before */
 /* Style the header */
-header {
+/* header {
     background-color: black;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: white;
-}
-#reservation{
+} */
+/* #reservation{
     float: left;
     background-color: white;
     text-align:center;
     width: 70%;
     border: 2px solid black;
-    height: 1000px;
+    height: 1000px; */
 /*     height is temporary just to see */
 }
 #timepicker{
@@ -31,22 +79,18 @@ header {
     height:200px;
     width: 200px;
     text-align:left;
-    position: relative;
-    left: 600px;
-    top: 100px;
 }
-#testimonials{
-    float: right;
+/* #testimonials{
     background-color: gray;
     text-align: center;
     width:30%;
     border: 2px solid black;
-     height: 1000px;
-/*     height is temporary just to see */
+    height: 1000px; */
+/*     height is temporary just to see
 }
 
 /* Style the footer */
-footer {
+/* footer {
     background-color: #00B6C9;
     padding: 10px;
     text-align: center;
@@ -68,4 +112,4 @@ footer {
     position:absolute;
     left:450px;
     top:1000px;
-}
+} */ */
