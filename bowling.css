@@ -34,13 +34,12 @@ h2{
         text-align:center;
         padding:10px;
 }
-h1{
+/* h1{
     margin:auto;
-}
-#res{
+} */
+/* #res{
     margin-left: 330px;
-    padding:10px;
-}
+} */
 #slider1{
         position:relative;
         left:55px;
@@ -48,9 +47,9 @@ h1{
 #footer{
     height:100px;
 }
-#submitbutton{
+/* #submitbutton{
     margin-left:520px;
-}
+} */
 #timepicker{
     border: 3px solid #00B6C9;
     overflow: auto;
