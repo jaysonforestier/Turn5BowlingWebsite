@@ -74,4 +74,14 @@ h1{
     width:50px;
     position:relative;
     bottom:260px;
+    left:80px;
+}
+#three{
+    width:50px;
+}
+#four{
+    width:50px;
+    position:relative;
+    bottom:145px;
+    left:20px;
 }
