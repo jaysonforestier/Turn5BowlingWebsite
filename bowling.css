@@ -34,9 +34,9 @@ h2{
         text-align:center;
         padding:10px;
 }
-/* h1{
-    margin:auto;
-} */
+h1{
+    padding:5px;
+}
 /* #res{
     margin-left: 330px;
 } */
@@ -47,9 +47,6 @@ h2{
 #footer{
     height:100px;
 }
-/* #submitbutton{
-    margin-left:520px;
-} */
 #timepicker{
     border: 3px solid #00B6C9;
     overflow: auto;
@@ -83,4 +80,7 @@ h2{
     position:relative;
     bottom:145px;
     left:20px;
+}
+#graphic{
+    height:90px;
 }
