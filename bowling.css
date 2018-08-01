@@ -45,7 +45,9 @@ h1{
         left:55px;
     }
 #footer{
-    height:100px;
+    padding-top:10px;
+    height:130px;
+    color: white;
 }
 #timepicker{
     border: 3px solid #00B6C9;
@@ -83,4 +85,12 @@ h1{
 }
 #graphic{
     height:90px;
+/*     padding-top:5px;
+    padding-left:100px; */
+}
+a{
+    color:white;
+}
+a:hover{
+    color:white;
 }
