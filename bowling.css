@@ -177,6 +177,17 @@ a:hover{
     
 }
 #datepicker {
-    margin-left: 50px;
+    margin-left: 150px;
 }
-
+#laneIcon{
+    margin-left:120px;
+}
+#laneInput{
+    margin-left:100px;
+}
+#lanetwo{
+    margin-left:50px;
+}
+#ball2{
+    margin-left:50px;
+}
