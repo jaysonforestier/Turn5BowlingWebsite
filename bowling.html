@@ -9,7 +9,9 @@
 <title>Turn5 Bowling</title>
 </head>
 <body>
+<!--     UNDERNEATH IS THE FLUID CONTAINER THAT THE WHOLE WEBSITE IS CONTAINED IN -->
     <div class="container-fluid">
+<!--         HEADER ROW -->
 	<div class="row">
 		<div class="col black">
 
@@ -44,16 +46,25 @@
         </div> -->
 		</div>
 	</div>
+<!--         MIDDLE ROW -->
 	<div class="row">
+<!--         WHITE RESERVE YOUR LANE FORM -->
 		<div class="col-9 white">
+<!--             TITLE ROW -->
             <div class="row justify-content-center">
                 <h1 id="res">Reserve Your Lane</h1>
             </div>
+<!--             TOP ROW WITH STEPS ONE AND TWO IN THEM -->
             <div class="row">
+<!--                 STEP ONE PICK A DATE -->
                 <div class="col-md-6 nested">
                     <img src="numberpics/one.png" alt="numberonecircle" id="one">
-                    evans stuff here
-                </div>    
+			        <h2> Pick a date: </h2>
+		            <form>
+                        <input type="date" id='datepicker'/>
+			        </form>
+                </div>
+<!--                 STEP TWO PICK A TIME -->
                 <div class="col-md-6 nested">
                     
                     <h2>Pick A Time</h2>
@@ -112,11 +123,50 @@
                     <img src="numberpics/two.png" alt="numbertwocircle" id="two">
                 </div>
             </div>
+<!--             BOTTOM ROW WITH STEPS THREE AND FOUR -->
             <div class="row">
+<!--                 STEP 3 -->
                 <div class="col-6 nested">
-                    <img src="numberpics/three.png" alt="numberthreecircle" id="three">
-                    evans stuff here
+                <img src="numberpics/three.png" alt="numberthreecircle" id="three">
+			<h2>Pick your Lane(s): </h2>
+                    <div class='container'>    
+                       
+                           <div class='row' id='laneIcon'>
+                                <div class='col-md-2'>
+                                    <div class='ballContainer'>
+                                        <img src='Turn5 SelectaLane1.png' width='40px' height='40px'>
+                                    </div>
+                                </div>
+
+                                <div class='col-md-2'>
+                                    <div class='ballContainer'>
+                                        <img src='Turn5 SelectaLane2.png' width='40px' height='40px' margin='5px'>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+
+                            <div id='laneInput' class='row'>
+
+                                <div class='col-md-2'>
+                                    <label class="container">Lane One 
+                                      <input type="checkbox" checked="checked">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                </div>
+
+                                <div class='col-md-2'>
+                                    <label class="container" >Lane Two
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                </div>
+
+                                </div>
+
+                            </div>
                 </div>
+<!--                 STEP FOUR -->
                 <div class="col-6 nested">
                     <h2>Pick a Team Name</h2>
                     <form id="namepicker">
@@ -176,7 +226,6 @@
         </div>
         
     </div>
-    </div>
     
     
     
@@ -187,6 +236,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>   
+</div>
 </body>
 
 </html>

@@ -15,11 +15,11 @@ body {
 .white{
 	background-color:white;
 }
-[class*=white]{
+/* [class*=white]{
 	height: 700px;
 }
 [class*=orange]{
-    height: 700px;}
+    height: 700px;} */
 [class*=black]{
 	height: 300px;
 }
