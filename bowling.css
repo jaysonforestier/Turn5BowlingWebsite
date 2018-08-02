@@ -24,7 +24,7 @@ body {
 
 /* meant to be removed/commented when header is added */
 [class*=black]{
-	height: 300px;
+	height: auto;
 }
 [class*=black2]{
 	height: 100px;
@@ -212,4 +212,80 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* header {
+    background-color: black;
+    padding: 1px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    float: center
+} */
+
+
+
+
+
+
+/* img{
+    width: 500px;
+    height: 3000px;
+    right: 300px;
+
+} */
+
+/* red{
+	background-color: #d62839;
+    height: 300px;
+} */
+
+/* orange {
+background-color: #fe5f00;
+height: 700px;
+width: 9000px;
+
+} */
+
+
+h6{
+
+text-align: center;
+font-size: 13px
+top: 250px;
+    
+}
+
+.message{
+    
+    font-size: 15px;
+    color: #FFFFFF;
+    
+}
+#msg{
+        width:60%;
+    right: 0px;
+    top
+}
+
+h4{
+   right:40%;
+    top:40%;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 36px;
+
+}
+
+
+    
+    
 }
