@@ -200,7 +200,10 @@ a:hover{
 /*     margin-left:100px; */
 }
 #lanetwo{
-    margin-left:50px;
+    margin-left:20px;
+}
+#laneone{
+        margin-left:-20px;    
 }
 #ball2{
 /*     margin-left:50px; */
