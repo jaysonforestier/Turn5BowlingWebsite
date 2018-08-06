@@ -309,3 +309,7 @@ transform: translateY(-30%);
 h3{
     font-size:37px;
 }
+
+.submitrow{
+    height:50px;
+}
