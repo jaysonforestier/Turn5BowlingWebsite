@@ -151,7 +151,9 @@ a:hover{
   background-color: #ccc;
 }
 
-/* When the checkbox is checked, add a blue background */
+
+/* When the checkbox is checked, add a orange background */
+
 .container input:checked ~ .checkmark {
   background-color: #F26522;
 }
