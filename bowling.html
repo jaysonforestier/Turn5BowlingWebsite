@@ -14,7 +14,45 @@
 <!--         HEADER ROW -->
 	<div class="row">
 		<div class="col black">
-    andre's and chade's stuff goes here
+<!--             andres stuff under this -->
+
+            <div class="col-lg-11 col-md-11 col-sm-10 col-xs-1">
+
+                    <div id="slider1" class="carousel slide mb-5" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img style="height: 350px; width: 200%;" class="d-block img-fluid img-responsive" src="/Turn5BowlingWebsite/Images/TURN5_BOWLING_ALLEY[1].jpg" alt="First Slide">
+                                <p style="text-align:center; width: px;"></p>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="height: 350px; width: 200%;" class="d-block img-fluid img-responsive" src="/Turn5BowlingWebsite/Images/grand_opening_198[1].jpg" alt="Second Slide">
+                                <p style="text-align:inital; width: 200px;"></p>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="height: 350px; width: 200%;" class="d-block img-fluid img-responsive" src="/Turn5BowlingWebsite/Images/TURN5_BOWLING_ALLEY_3[1].jpg" alt="Third Slide">
+                                <p style="text-align:inital; width: 200px;"></p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img style="height: 350px; width: 200%;" class="d-block img-fluid img-responsive" src="/Turn5BowlingWebsite/Images/20180103_CedarHallow_056[1].jpg" alt="Fourth Slide">
+                                <p style="text-align:inital; width: 200px;"></p>
+                            </div>
+                        </div>
+                        <h4>Turn 5 Bowling</h4> 
+                </div>
+              
+            </div>
+        
+        <div class="container" id="msg">
+            <div class="row">
+                <div class="message">
+                    <div class="col lg 8 col-md 4 col-sm 7">        
+                        <p>Welcome to the Turn5 Bowling Alley! Stressed out from work or just looking to unwind? Go bowling! To reserve a lane, simply fill out the form below and you're all set to bowl. Work can be stressful, but bowling isn't, so gather a few of your coworkers and come have some fun! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- andres stuff above here -->
 		</div>
 	</div>
 <!--         MIDDLE ROW -->
@@ -29,8 +67,8 @@
             <div class="row">
 <!--                 STEP ONE PICK A DATE -->
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nested">
-                    <img src="numberpics/one.png" alt="numberonecircle" id="one">
-			        <h2> Pick a date: </h2>
+<!--                     <img src="numberpics/one.png" alt="numberonecircle" id="one"> -->
+			        <h2> 1. Pick a date: </h2>
 		                <div class="flex-container">
                             <form>
                                 <input class="box" type="date" id='datepicker'/>
@@ -40,7 +78,7 @@
 <!--                 STEP TWO PICK A TIME -->
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nested">
                     
-                    <h2>Pick A Time</h2>
+                    <h2>2. Pick A Time</h2>
                     <div class="flex-container">
                     <form id="timepicker">
                         <div>
@@ -93,25 +131,25 @@
                         </div>
                     </form>
                     </div>
-                    <img src="numberpics/two.png" alt="numbertwocircle" id="two">
+<!--                     <img src="numberpics/two.png" alt="numbertwocircle" id="two"> -->
                 </div>
             </div>
 <!--             BOTTOM ROW WITH STEPS THREE AND FOUR -->
             <div class="row">
 <!--                 STEP 3 -->
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nested">
-                <img src="numberpics/three.png" alt="numberthreecircle" id="three">
-			<h2>Pick your Lane(s): </h2>
+<!--                 <img src="numberpics/three.png" alt="numberthreecircle" id="three"> -->
+			<h2>3. Pick your Lane(s): </h2>
                     <div class='container'>    
                        
                            <div class='row' id='laneIcon'>
-                                <div class='col-md-2'>
+                                <div class='col-6'>
                                     <div class='ballContainer'>
                                         <img src='numberpics/Turn5SelectaLane1.png' width='40px' height='40px'>
                                     </div>
                                 </div>
 
-                                <div class='col-md-2' id="ball2">
+                                <div class='col-6' id="ball2">
                                     <div class='ballContainer'>
                                         <img src='numberpics/Turn5SelectaLane2.png' width='40px' height='40px' margin='5px'>
                                     </div>
@@ -121,14 +159,14 @@
 
                             <div id='laneInput' class='row'>
 
-                                <div class='col-md-2' >
-                                    <label class="container">Lane One 
+                                <div class='col-6' id="laneone" display='block'>
+                                    <label class="container" >Lane One 
                                       <input type="checkbox" checked="checked">
                                       <span class="checkmark"></span>
                                     </label>
                                 </div>
 
-                                <div class='col-md-2' id="lanetwo">
+                                <div class='col-6' id="lanetwo">
                                     <label class="container" >Lane Two
                                       <input type="checkbox">
                                       <span class="checkmark"></span>
@@ -136,12 +174,11 @@
                                 </div>
 
                                 </div>
-
-                            </div>
+                    </div>
                 </div>
 <!--                 STEP FOUR -->
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nested">
-                    <h2>Pick a Team Name</h2>
+                    <h2>4. Pick a Team Name</h2>
                     <div class="flex-container">
                     <form id="namepicker">
                         <input type="text" name="namepicker">
@@ -153,7 +190,7 @@
                         <input type="text" name="namepicker">
                     </form>
                     </div>
-                    <img src="numberpics/four.png" alt="numberfourcircle" id="four">
+<!--                     <img src="numberpics/four.png" alt="numberfourcircle" id="four"> -->
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -215,5 +252,4 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>   
 </div>
 </body>
-
 </html>
