@@ -241,6 +241,7 @@ a:hover{
     width: 500px;
     height: 3000px;
     right: 300px;
+
 } */
 
 /* red{
@@ -252,6 +253,7 @@ a:hover{
 background-color: #fe5f00;
 height: 700px;
 width: 9000px;
+
 } */
 
 
@@ -270,7 +272,9 @@ top: 250px;
     
 }
 #msg{
-        width:60%;
+
+/*         width:60%; */
+
     right: 0px;
 }
 
@@ -284,4 +288,33 @@ h4{
 }
 
 
-    
+/* #headercarousel{
+ height:200px;   
+} */
+/* #headslider{
+    height:1%;
+} */
+#firstslide{
+    height:450px;
+}
+#secondslide{
+    height:450px;
+}
+#thirdslide{
+    height:450px;
+}
+#fourthslide{
+    height:450px;
+}
+.carousel-caption{
+    top: 50%;
+transform: translateY(-30%);
+}
+h3{
+    font-size:37px;
+}
+
+.submitrow{
+    height:50px;
+}
+
