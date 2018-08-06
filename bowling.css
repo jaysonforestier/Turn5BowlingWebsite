@@ -5,16 +5,16 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color:#414042;
+    color:#FFFFFF;
 }
 .black{
 	background-color:black;
 }
 .orange{
-	background-color:orange;
+	background-color: #F26522;
 }
 .white{
-	background-color:white;
+	background-color: white;
 }
 /* [class*=white]{
 	height: 700px;
@@ -37,6 +37,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     color:#414042;
 }
+
+p {
+    color: #FFFFFF;
+}
+
+
 h2{
         text-align:center;
         padding:10px;
@@ -144,7 +150,7 @@ a:hover{
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input: checked ~ .checkmark {
+.container input:checked ~ .checkmark {
   background-color: #F26522;
 }
 
