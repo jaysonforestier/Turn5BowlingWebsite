@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -143,7 +144,7 @@ a:hover{
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
+.container input: checked ~ .checkmark {
   background-color: #F26522;
 }
 
@@ -271,7 +272,9 @@ top: 250px;
     
 }
 #msg{
+
 /*         width:60%; */
+
     right: 0px;
 }
 
@@ -283,6 +286,7 @@ h4{
     font-size: 36px;
 
 }
+
 
 /* #headercarousel{
  height:200px;   
@@ -313,3 +317,4 @@ h3{
 .submitrow{
     height:50px;
 }
+
