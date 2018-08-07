@@ -26,6 +26,10 @@
                             <div class="carousel-caption">
                                 <h3>Turn5 Bowling Alley</h3>
                             </div>
+                            <div class="carousel-caption">        
+                                <p>Welcome to the Turn5 Bowling Alley! Stressed out from work or looking to unwind? Go bowling! To reserve a lane, simply fill out the form below and you're all set to bowl. Work can be stressful, but bowling isn't, so gather a few of your coworkers and come have some fun!</p>
+                            </div>
+
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="images/grand_opening_198.jpg" alt="Second slide" id="secondslide">
@@ -79,7 +83,7 @@
 
 		                <div class="flex-container">
                             <form>
-                                <input class="box" type="date" id='datepicker'/>
+                                <input class="form-control" type="date" id='datepicker'/>
 			                </form>
                         </div>
                 </div>
@@ -149,8 +153,45 @@
 <!--                 <img src="numberpics/three.png" alt="numberthreecircle" id="three"> -->
 
 			<h2>3. Pick your Lane(s) </h2>
+<!--                          <div class="container">
+  <h3>Bootstrap image checkbox(multiple)</h3>
+  
+              <script>
+                  // init the state from the input
+            $(".image-checkbox").each(function () {
+              if ($(this).find('input[type="checkbox"]').first().attr("checked")) {
+                $(this).addClass('image-checkbox-checked');
+              }
+              else {
+                $(this).removeClass('image-checkbox-checked');
+              }
+            });
 
-<!--                     <div class='container'>    
+            // sync the state to the input
+            $(".image-checkbox").on("click", function (e) {
+              $(this).toggleClass('image-checkbox-checked');
+              var $checkbox = $(this).find('input[type="checkbox"]');
+              $checkbox.prop("checked",!$checkbox.prop("checked"))
+
+              e.preventDefault();
+            });
+                  </script>
+  <div class="col-6 nopad text-center">
+    <label class="image-checkbox">
+      <img class="img-responsive" src="https://png.icons8.com/ios/1600/bowling-ball-filled.png" />
+      <input type="checkbox" name="image[]" value="" />
+      <i class="fa fa-check hidden"></i>
+    </label>
+  </div>
+  <div class="col-6 nopad text-center">
+    <label class="image-checkbox">
+      <img class="img-responsive" src="https://png.icons8.com/ios/1600/bowling-ball-filled.png" />
+      <input type="checkbox" name="image[]" value="" />
+      <i class="fa fa-check hidden"></i>
+    </label>
+  </div>
+</div> -->
+                    <div class='container'>    
                        
                            <div class='row' id='laneIcon'>
                                 <div class='col-6'>
@@ -173,33 +214,33 @@
                                 <div class='col-6' id="laneone" display='block'>
 
                                     <label class="container" >Lane One 
-                                      <input type="checkbox" checked="checked">
+                                      <input type="checkbox" checked="checked" class='form-control'>
                                       <span class="checkmark"></span>
                                     </label>
                                 </div>
 
                                 <div class='col-6' id="lanetwo">
                                     <label class="container" >Lane Two
-                                      <input type="checkbox">
+                                      <input type="checkbox" class='form-control'>
                                       <span class="checkmark"></span>
                                     </label>
                                 </div>
 
                                 </div>
-                    </div> -->
+                    </div>
                 </div>
 <!--                 STEP FOUR -->
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nested">
                     <h2>4. Pick a Team Name</h2>
                     <div class="flex-container">
                     <form id="namepicker">
-                        <input type="text" name="namepicker">
+                        <input type="text" name="namepicker" class='form-control'>
                     </form>
                     </div>    
                     <br>
                     <div class="flex-container">
                     <form id="namepicker">
-                        <input type="text" name="namepicker">
+                        <input type="text" name="namepicker" class='form-control'>
                     </form>
                     </div>
 <!--                     <img src="numberpics/four.png" alt="numberfourcircle" id="four"> -->
@@ -208,7 +249,7 @@
             <div class="row justify-content-center">
                 <div class="col-1 submitrow">
                     <form id="submitbutton">
-                        <input type="submit">
+                        <input type="submit" class='form-control'>
                     </form>   
                 </div>    
             </div>
